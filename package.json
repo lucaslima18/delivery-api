@@ -1,0 +1,26 @@
+{
+  "name": "delivery-api",
+  "version": "1.0.0",
+  "description": "An api for delivery services",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaslima18/delivery-api.git"
+  },
+  "author": "Lucas Amorim",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/lucaslima18/delivery-api/issues"
+  },
+  "homepage": "https://github.com/lucaslima18/delivery-api#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
